@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather report</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-2"> 
+            <form class="form" id="weathercast">
+                <label for="city">City</label>
+                <input type="text" id="city">
+                <button class="submitBtn">Submit</button>
+             </form>
+            </div>
+            <div class="col-9">
+                <div class="jumbotron">
+                    <h1 class="display-4" id="cityName"></h1>
+                </div>
+                <div class="cards"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
