@@ -27,12 +27,5 @@ var getCity = function(cityName) {
     })
 }
 
-var displayCities = function(weather){
-    localstorage.getItem
-// add the city to the results
-// localstorage.setItem 
-// run a for loop to create the buttons   
-//}  
-
-
 userFormEl.addEventListener("submit", formSubmitHandler);
+getCity()
